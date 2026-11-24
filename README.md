@@ -9,10 +9,10 @@
 | 平台 | 文件 | 安装与运行 |
 |---|---|---|
 | Windows x86_64 | `tabby-rs-<版本>-x86_64-pc-windows-msvc-setup.exe` | 安装程序，可选只为当前用户安装（`%LOCALAPPDATA%\Programs\Tabby RS`）或为所有用户安装（`Program Files\Tabby RS`，需要管理员权限）；创建开始菜单快捷方式与卸载项，桌面快捷方式可选 |
-| Windows x86_64 | `tabby-rs-<版本>-x86_64-pc-windows-msvc.zip` | 便携版：解压后运行 `tabby-app.exe`，`conpty\` 目录与它放在一起 |
+| Windows x86_64 | `tabby-rs-<版本>-x86_64-pc-windows-msvc.zip` | 便携版：解压后运行 `tabby-rs.exe`，`conpty\` 目录与它放在一起 |
 | Linux x86_64（Debian、Ubuntu） | `tabby-rs-<版本>-x86_64-unknown-linux-gnu.deb` | `sudo apt install ./tabby-rs-<版本>-x86_64-unknown-linux-gnu.deb`，命令为 `tabby-rs`，应用菜单中为 Tabby RS |
 | Linux x86_64 | `tabby-rs-<版本>-x86_64-unknown-linux-gnu.AppImage` | `chmod +x` 后直接运行，需要 FUSE |
-| Linux x86_64 | `tabby-rs-<版本>-x86_64-unknown-linux-gnu.tar.gz` | 解压后运行 `tabby-app` |
+| Linux x86_64 | `tabby-rs-<版本>-x86_64-unknown-linux-gnu.tar.gz` | 解压后运行 `tabby-rs` |
 | 全部 | `SHA256SUMS`、`SHA256SUMS.minisig` | 上面各文件的 SHA-256 与它的签名，用于校验，见下文 |
 
 - 不确定选哪个时：Windows 用 `-setup.exe`，Linux 用 `.AppImage`；这两种和便携包（`.zip`、`.tar.gz`）可在程序内自动更新，`.deb` 的更新需要用 apt 安装新包
